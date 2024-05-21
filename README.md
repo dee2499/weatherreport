@@ -59,7 +59,7 @@ A weather forecast application built using Laravel for backend development and a
 3. View the weather forecast for the specified city.
 
 ## API Endpoints
-- `GET /api/weather?city={cityName}`: Fetch weather data for the specified city.
+- `GET https://api.openweathermap.org/data/2.5/weather?q={$city}&appid={$apiKey}&units=metric`: Fetch weather data for the specified city.
 
 ## Database Schema
 The `weather_forecasts` table schema:
